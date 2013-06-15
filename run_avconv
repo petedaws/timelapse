@@ -1,0 +1,2 @@
+avconv -y -f image2 -i ./image-%08d.jpeg -c:v mpeg4 -b:v 10000k -r 24 -s 1280x720 test.mp4
+
